@@ -16,4 +16,3 @@
 
   [plugins.inputs]
     failOnPreviews = false
-    yarnWorkspaces = false
