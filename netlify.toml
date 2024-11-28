@@ -15,4 +15,4 @@
   package = "netlify-plugin-snyk"
 
   [plugins.inputs]
-    failOnPreviews = cdp
+    failOnPreviews = true
