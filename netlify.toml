@@ -10,3 +10,10 @@
   to = "/.netlify/images?url=/:splat&fm=webp"
   status = 200
   force = true
+
+[[plugins]]
+  package = "netlify-plugin-snyk"
+
+  [plugins.inputs]
+    failOnPreviews = false
+    yarnWorkspaces = false
